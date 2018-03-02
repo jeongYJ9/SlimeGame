@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Device.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Direct2D.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Frames.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Window.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Disaster.cpp">
+      <Filter>Object\Disaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Map.cpp">
+      <Filter>Object\MapData</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ProgressBar.cpp">
+      <Filter>Object\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Skill.cpp">
+      <Filter>Object\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SlimeShader.cpp">
+      <Filter>Object\SlimeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Rect\Point.cpp">
+      <Filter>Render\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Rect\Rect.cpp">
+      <Filter>Render\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Rect\Size.cpp">
+      <Filter>Render\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderToShader\RenderToShader.cpp">
+      <Filter>Render\RenderToShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderToShader\RenderToShader2.cpp">
+      <Filter>Render\RenderToShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Animator.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Buffers.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Drawer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RectDrawer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderTarget.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Texture.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureDrawer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Vertex.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Shader\Shader.cpp">
+      <Filter>Render\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GameManager.cpp">
+      <Filter>Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GameOverManager.cpp">
+      <Filter>Manager\GameOverManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\MenuManager.cpp">
+      <Filter>Manager\MenuManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Device.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Direct2D.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Frames.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Keyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Window.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Disaster.h">
+      <Filter>Object\Disaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Map.h">
+      <Filter>Object\MapData</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ProgressBar.h">
+      <Filter>Object\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Skill.h">
+      <Filter>Object\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SlimeShader.h">
+      <Filter>Object\SlimeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Rect\Point.h">
+      <Filter>Render\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Rect\Rect.h">
+      <Filter>Render\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Rect\Size.h">
+      <Filter>Render\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderToShader\RenderToShader.h">
+      <Filter>Render\RenderToShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderToShader\RenderToShader2.h">
+      <Filter>Render\RenderToShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Animator.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Buffers.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Drawer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RectDrawer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderTarget.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Texture.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureDrawer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Vertex.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Shader\Shader.h">
+      <Filter>Render\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GameManager.h">
+      <Filter>Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GameOverManager.h">
+      <Filter>Manager\GameOverManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\MenuManager.h">
+      <Filter>Manager\MenuManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{3e82c147-d875-4723-b7f8-a0945a88f22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{cd3019a2-3906-4844-ab85-7d57ae600603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{8adb5ec7-5423-4af8-9a6a-5bf4460d9fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{428eabc5-9ef3-427b-84ae-c543e16d72d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5f48d9df-a37d-4cff-8de3-8dccf4379a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SlimeShader">
+      <UniqueIdentifier>{ffb806bf-b013-43ef-91f7-f2508b492c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{0822c855-52b3-4325-b7b6-e50b23422727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\MenuManager">
+      <UniqueIdentifier>{04b5aad7-4e5b-4bef-b155-5269d5e574fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameManager">
+      <UniqueIdentifier>{a3bcd038-a4e5-4ff2-a46f-16e42f008bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameOverManager">
+      <UniqueIdentifier>{61eab79f-5fe3-46d8-85b1-9581ee341f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MapData">
+      <UniqueIdentifier>{fb5597ed-3907-413d-8251-7df9f855fbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Disaster">
+      <UniqueIdentifier>{35d38a91-1d23-4da3-a619-7256413b7422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ProgressBar">
+      <UniqueIdentifier>{d4110e00-1fe5-42b2-ac41-d81865f56eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Rect">
+      <UniqueIdentifier>{82732e8a-3a9c-42bc-b305-3a624a204969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\RenderToShader">
+      <UniqueIdentifier>{3c8ee9e0-8701-44b5-a4d8-da41299adb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shader">
+      <UniqueIdentifier>{4cf6fee5-aeb1-46b6-b9e6-be104535feb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Skill">
+      <UniqueIdentifier>{8c596499-1a45-4803-a6df-1146d232e7a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Render\RenderToShader\RenderToShader.hlsl">
+      <Filter>Render\RenderToShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Render\RenderToShader\RenderToShader2.hlsl">
+      <Filter>Render\RenderToShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Render\Shader\Bar.hlsl">
+      <Filter>Render\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Render\Shader\Default.hlsl">
+      <Filter>Render\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Render\Shader\MapShader.hlsl">
+      <Filter>Render\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Render\Shader\SlimeShader.hlsl">
+      <Filter>Render\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
