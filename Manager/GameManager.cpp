@@ -28,6 +28,7 @@ void GameManager::Initialize()
 void GameManager::Destroy()
 {
 
+//testing code
 }
 
 void GameManager::Update()
